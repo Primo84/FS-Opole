@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC>
+<HTML>
+
+    <HEADER>
+        <META http-equiv = "content-type" content = "text/html; charset = ISO-8859-2">
+        <META name = "viewport" content = "width = device-width, height = device-height, initial-scale = 1.0">
+
+            
+
+        <TITLE>
+            Fresh-Shine
+        </TITLE>
+
+        <link rel = "stylesheet" href = "./Stylesheet/Style.css" type="text/css"  media = "ALL AND (min-width : 1200px)">
+        <link rel = "stylesheet" href = "./Stylesheet/Style_1200.css" type="text/css" media = "ALL AND (max-width : 1199px)">
+        <link rel = "stylesheet" href = "./Stylesheet/Style_1000.css" type="text/css" media = "ALL AND (max-width : 999px)">
+        <link rel = "stylesheet" href = "./Stylesheet/Style_800.css" type="text/css" media = "ALL AND (max-width : 799px)">
+        <link rel = "stylesheet" href = "./Stylesheet/Style_600.css" type="text/css" media = "ALL AND (max-width : 599px)">
+        <link rel = "stylesheet" href = "./Stylesheet/Style_400.css" type="text/css" media = "ALL AND (max-width : 399px)">
+        <link rel = "stylesheet" href = "./Stylesheet/Style_320.css" type="text/css" media = "ALL AND (max-width : 320px)">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>.
+        <script src = "./Scripts/Script.js" type = "text/JavaScript"></script>
+
+    </HEADER>
+
+    <BODY>
+
+        <div id = "Header">
+
+            <img src = "Grafika/Header_Background.jpg" id ="Header_Bkg">
+            <img src = "Grafika/Logo.png" id ="Header_Logo">
+
+            <div id = "Header_Text">
+
+                <span id= "CompanyName"> FRESH & SHINE</span>
+                <span id= "motto">bo czysto¶æ to nasza misja</span>
+
+            </div>
+
+
+            <!--
+
+            *****************************************G??wne Menu Wysuwane *****************************************
+
+
+
+            -->
+
+
+                <div class = "MainMenuButton" onmouseenter = "MenuMouseEnt()" onmouseleave = "MenuMouseLeave()" onclick="ShowHideMenu()">
+
+                        <span class = "MainMenuButt1"></span>
+                        <span class = "MainMenuButt2"></span>
+                        <span class = "MainMenuButt3"></span>
+
+                </div>
+
+                <div class ="MainMenu">
+
+                    <table class = "MainMenuTable">
+
+                        <tr>
+
+                            <td id="Cennik" onclick = "MenuItemMouseClick('Cennik')" onmouseenter = "MenuItemMouseEnt('#Cennik')" onmouseleave = "MenuItemMouseLeave('#Cennik')">CENNIK US£UG</td>
+                        </tr>
+
+                        <tr>
+                            <td id="Galeria" onclick = "MenuItemMouseClick('Galery')" onmouseenter = "MenuItemMouseEnt('#Galeria')" onmouseleave = "MenuItemMouseLeave('#Galeria')">GALERIA</td>
+                        </tr>
+
+                        <tr>
+                            <td id="Kontakt"  onclick = "MenuItemMouseClick('Kontakt')" onmouseenter = "MenuItemMouseEnt('#Kontakt')" onmouseleave = "MenuItemMouseLeave('#Kontakt')">KONTAKT</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div> 
+
+    <!--  
+
+       </div>
+
+
+    </BODY>
+
+</HTML>
