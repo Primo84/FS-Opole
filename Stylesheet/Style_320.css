@@ -1,45 +1,42 @@
-#Header{
+#Header_Bkg{
 
     position : relative;
-    left : 0px; top:0px; width:100%; min-width:320px; height : 300px;
+    left : 0px; top:0px; width:100%; height : 120px;
+    min-width : 320px;
+    /* border : 3px solid rgb(182, 153, 104); */
+    z-index : 1;
+
+}
+
+
+#Header{
+
+    position : absolute;
+    left : 5%; top : 10px; width : 90%; height : 60px;
+    background-color: rgb(242, 246, 246);
+    border-radius: 40px;
+    z-index : 1;
+}
+
+
+#Header img{
+
+    position : absolute;
+    left : 2%; top : 16%; width : 13%; height : 63%;
+    z-index : 1;
     /* border : 2px solid red; */
 
 }
-#Header_Bkg{
 
-    position : absolute;
-    left : 0px; top:0px; width:100%; height : 100%;
-
-}
-#Header_Logo{
-
-    position : absolute;
-    left : 10px; top:10px; width:16%; height : 40px;
-
-}
-
-#Header_Text{
-    position : absolute;
-    border : 0px solid red;
-    left : 10%; top : 130px; width : 80%; height : 50px; 
-}
 
 #CompanyName{
     position : absolute;
-    border : 0px solid yellow;
-    left : 0px; top : 0px; width : 100%; height : 30px; 
-    text-align : center;
-    font-size : 30px;
-    color :rgb(156, 134, 134);
-}
-
-#motto{
-    position : absolute;
-    border : 0px solid green;
-    left : 0px; top : 30px; width : 100%; height : 20px; 
-    text-align : center;
-    font-size : 20px;
-    color :rgb(156, 134, 134);
+    /* border : 2px solid yellow; */
+    left : 16%; top : 20%; width : 70%; height : 60px; 
+    text-align : left;
+    font-size : 16px;
+    color :rgb(182, 153, 104);
+    /* font-family : "Roboto-Bold"; */
 }
 
 
@@ -58,14 +55,15 @@ div.MainMenuButton{
 
     position : absolute;                                            
     border : 0px solid rgb(227, 220, 220);
-    left : 288px; top: 20px; width : 28.8px; height : 30px;
+    left : 250px; top: 10px; width : 22.8px; height : 20px;
     cursor : pointer;
+    z-index : 0;
 }
 
 span.MainMenuButt1{
 
     position : absolute;
-    background-color : rgb(243, 235, 235);
+    background-color : rgb(106, 78, 78);
     left : 0%; top: 0px; width : 100%; height : 24%;
     transition-property : background-color;
     transition-duration : 1000ms;
@@ -75,7 +73,7 @@ span.MainMenuButt1{
 span.MainMenuButt2{
 
     position : absolute;
-    background-color : rgb(243, 241, 235);
+    background-color : rgb(106, 78, 78);
     left : 0%; top: 38%; width : 100%; height : 24%;
     transition-property : background-color;
     transition-duration : 1000ms;
@@ -85,7 +83,7 @@ span.MainMenuButt2{
 span.MainMenuButt3{
 
     position : absolute;
-    background-color : rgb(243, 235, 235);
+    background-color : rgb(106, 78, 78);
     left : 0%; top: 76%; width : 100%; height : 24%;
     transition-property : background-color;
     transition-duration : 1000ms;
@@ -106,6 +104,7 @@ div.MainMenu{
     border : 0px solid red;
     left : 190px; top : 70px; width : 130px; height : 180px; 
     overflow : hidden;
+    z-index : 1;
 }
 
 
@@ -128,4 +127,165 @@ table.MainMenuTable td{
     background-color : rgb(95, 212, 185);
     border-radius : 5px;
 
+}
+
+
+/*
+
+    ************************ Text 1***************************
+
+
+*/
+
+
+#Text_1{
+
+
+    position : relative;
+    left : 5%; top:0px; width:90%; height : 492px;
+    background-color: rgb(61, 79, 155);
+    border-radius : 35px;
+    /* border : 3px solid yellow; */
+    z-index : 0;
+    min-width : 288px;
+}
+
+#Text_1 img{
+
+
+    position : absolute;
+    left : 0px; top : 0px; width : 100%; height : 60%;
+    /* background-color: rgb(236, 232, 227); */
+    border-radius : 35px;
+
+    z-index : 0;
+}
+
+#Text_1_Header{
+    position : absolute;
+    left : 0px; top :61%; width : 100%;
+    /* border : 2px solid green; */
+    font-family : "Poppins-ExtraBoldItalic";
+    font-size : 26px;
+    color :rgb(225, 230, 236);
+    text-align : center
+}
+
+#Text_1_{
+    position : absolute;
+    left : 4%; top :71%; width : 92%;
+    /* border : 2px solid green; */
+    font-family : "Roboto-Condensed-Italic";
+    font-size : 14px;
+    color :rgb(225, 230, 236);
+    text-align : "right";
+}
+
+
+/*
+
+    ************************ Text 2***************************
+
+
+*/
+
+
+#Text_2{
+
+
+    position : relative;
+    left : 5%; top:40px; width:90%; height : 492px;
+    background-color: rgb(61, 79, 155);
+    border-radius : 35px;
+    /* border : 3px solid yellow; */
+    z-index : 0;
+    min-width : 288px;
+
+}
+
+#Text_2 img{
+
+
+    position : absolute;
+    left : 0px; top:0px; width:100%; height : 60%;
+    /* background-color: rgb(236, 232, 227); */
+    border-radius : 35px;
+
+    z-index : 0;
+
+}
+
+#Text_2_Header{
+    position : absolute;
+    left : 0px; top :61%; width : 100%;
+    /* border : 2px solid green; */
+    font-family : "Poppins-ExtraBoldItalic";
+    font-size : 26px;
+    color :rgb(225, 230, 236);
+    text-align : center
+}
+
+#Text_2_{
+    position : absolute;
+    left : 4%; top :68%; width : 92%;
+    /* border : 2px solid green; */
+    font-family : "Roboto-Condensed-Italic";
+    font-size : 14px;
+    color :rgb(225, 230, 236);
+    text-align : "right";
+}
+
+
+
+/*
+
+    ************************ Text 3***************************
+
+
+*/
+
+
+#Text_3{
+
+
+    position : relative;
+    left : 5%; top:80px; width:90%; height : 520px;
+    background-color: rgb(61, 79, 155);
+    border-radius : 35px;
+    /* border : 3px solid yellow; */
+    z-index : 0;
+    min-width : 288px;
+
+}
+
+#Text_3 img{
+
+
+    position : absolute;
+    left : 0px; top:0px; width:100%; height : 50%;
+    /* background-color: rgb(236, 232, 227); */
+    border-radius : 35px;
+
+    z-index : 0;
+
+}
+
+#Text_3_Header{
+    position : absolute;
+    left : 0px; top :51%; width : 100%;
+    /* border : 2px solid green; */
+    font-family : "Poppins-ExtraBoldItalic";
+    font-size : 26px;
+    color :rgb(225, 230, 236);
+    text-align : center
+}
+
+#Text_3_{
+    position : absolute;
+    left : 4%; top :61%; width : 92%;
+    /* border : 2px solid green; */
+    font-family : "Roboto-Condensed-Italic";
+    font-size : 14px;
+    color :rgb(225, 230, 236);
+    text-align : "right";
 }

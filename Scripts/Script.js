@@ -16,7 +16,7 @@ function MenuMouseEnt()
 
 function MenuMouseLeave()
 {
-    $('div.MainMenuButton span').css("background-color", "rgb(243, 241, 235)");
+    $('div.MainMenuButton span').css("background-color", "rgb(106, 78, 78)");
 }
 
 function MenuItemMouseEnt(Item)
