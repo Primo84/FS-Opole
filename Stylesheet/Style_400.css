@@ -1,26 +1,20 @@
-#Header_Bkg{
-
-    position : relative;
-    left : 0px; top:0px; width:100%; height : 120px;
-    /* border : 3px solid rgb(182, 153, 104); */
-    z-index : 1;
-
-}
-
 
 #Header{
 
-    position : absolute;
-    background-color: rgb(242, 246, 246);
-    border-radius: 40px;
+    position : relative;
+    border-bottom : 4px solid rgb(92, 89, 89);
+    left : 5%; top :0px; width : 90%; height : 90px;
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 15px; */
     z-index : 1;
+    opacity : 1;
 }
 
 
 #Header img{
 
     position : absolute;
-    left : 2%; top : 16%; width : 13%; height : 63%;
+    left : 2%; top : 14px; width : 14%; height : 58px;
     z-index : 1;
     /* border : 2px solid red; */
 
@@ -30,11 +24,31 @@
 #CompanyName{
     position : absolute;
     /* border : 2px solid yellow; */
-    left : 16%; top : 20%; width : 70%; height : 60px; 
+    left : 17%; top : 27px; width : 70%; height : 60px; 
     text-align : left;
-    font-size : 18px;
+    font-size : 22px;
     color :rgb(182, 153, 104);
-    /* font-family : "Roboto-Bold"; */
+    font-family : "Poppins-BoldItalic";
+}
+
+#Tel{
+    position : absolute;
+    /* border : 2px solid yellow; */
+    left : 60%; top : 65px; width : 40%; height : 20px;
+    /* border : 1px solid red; */
+    color :rgb(182, 153, 104);
+    cursor : pointer;
+    z-index : 2;
+}
+
+#Tel a{
+
+    position : absolute;
+    /* border : 2px solid yellow; */
+    left : 0px; top : 0px;
+    font-size : 14px;
+    color :rgb(182, 153, 104);
+    cursor : pointer;
 }
 
 
@@ -52,9 +66,8 @@ div.MainMenuButton{
 
     position : absolute;                                            
     border : 0px solid rgb(227, 220, 220);
-    left : 87%; top: 10px; width : 7%; height : 20px;
+    left : 88%; top: 20px; width : 7%; height : 30px;
     cursor : pointer;
-    z-index : 1;
 }
 
 span.MainMenuButt1{
@@ -88,6 +101,7 @@ span.MainMenuButt3{
 }
 
 
+
 /*
 
     ************************ Głowne menu wysuwane Tabela****************************
@@ -99,7 +113,7 @@ div.MainMenu{
 
     position : absolute;
     border : 0px solid red;
-    left : 60%; top : 70px; width : 38%; height : 180px; 
+    left : 60%; top : 60px; width : 38%; height : 180px; 
     overflow : hidden;
     z-index : 1;
 }
@@ -140,9 +154,9 @@ table.MainMenuTable td{
 
 
     position : relative;
-    left : 5%; top:0px; width:90%; height : 492px;
+    left : 5%; top : 40px; width:90%; height : 492px;
     background-color: rgb(61, 79, 155);
-    border-radius : 35px;
+    border-radius : 15px;
     /* border : 3px solid yellow; */
     z-index : 0;
 
@@ -154,7 +168,7 @@ table.MainMenuTable td{
     position : absolute;
     left : 0px; top : 0px; width : 100%; height : 60%;
     /* background-color: rgb(236, 232, 227); */
-    border-radius : 35px;
+    border-radius : 15px;
 
     z-index : 0;
 }
@@ -192,9 +206,9 @@ table.MainMenuTable td{
 
 
     position : relative;
-    left : 5%; top:40px; width:90%; height : 492px;
+    left : 5%; top : 80px; width:90%; height : 492px;
     background-color: rgb(61, 79, 155);
-    border-radius : 35px;
+    border-radius : 15px;
     /* border : 3px solid yellow; */
     z-index : 0;
 
@@ -206,7 +220,7 @@ table.MainMenuTable td{
     position : absolute;
     left : 0px; top:0px; width:100%; height : 60%;
     /* background-color: rgb(236, 232, 227); */
-    border-radius : 35px;
+    border-radius : 15px;
 
     z-index : 0;
 
@@ -246,9 +260,9 @@ table.MainMenuTable td{
 
 
     position : relative;
-    left : 5%; top:80px; width:90%; height : 520px;
+    left : 5%; top : 120px; width:90%; height : 520px;
     background-color: rgb(61, 79, 155);
-    border-radius : 35px;
+    border-radius : 15px;
     /* border : 3px solid yellow; */
     z-index : 0;
 
@@ -260,7 +274,7 @@ table.MainMenuTable td{
     position : absolute;
     left : 0px; top:0px; width:100%; height : 50%;
     /* background-color: rgb(236, 232, 227); */
-    border-radius : 35px;
+    border-radius : 15px;
 
     z-index : 0;
 
@@ -284,4 +298,108 @@ table.MainMenuTable td{
     font-size : 14px;
     color :rgb(225, 230, 236);
     text-align : "right";
+}
+
+
+
+/*
+
+    ************************ Footer***************************
+
+
+*/
+
+
+#footer{
+    position : relative;
+    left : 5%; top: 160px; width:90%; height : 170px;
+    background-color: rgb(237, 238, 242);
+    border-top : 4px solid rgb(92, 89, 89);
+    /* border : 3px solid yellow; */
+    z-index : 0;
+}
+
+footer img.Header_Logo{
+
+    position : absolute;
+    left : 2%; top : 24px; width : 10%; height : 34px;
+    z-index : 1;
+    /* border : 2px solid red; */
+
+}
+
+
+footer #CompanyName{
+    position : absolute;
+    /* border : 2px solid yellow; */
+    left : 13%; top : 27px; width : 40%; height : 60px; 
+    text-align : left;
+    font-size : 12px;
+    color :rgb(182, 153, 104);
+    font-family : "Poppins-BoldItalic";
+}
+
+footer img.Address{
+
+    position : absolute;
+    left : 52%; top : 24px; width : 7%; height : 28px;
+    z-index : 1;
+    /* border : 2px solid red; */
+
+}
+
+footer span.Address{
+
+    position : absolute;
+    left : 60%; top : 24px; width : 40%; height : 28px;
+    z-index : 1;
+    text-align : left;
+    font-size : 12px;
+    color :rgb(182, 153, 104);
+    font-family : "Roboto-Condensed-Italic";
+
+}
+
+footer img.Tel{
+
+    position : absolute;
+    left : 52%; top : 72px; width : 7%; height : 28px;
+    z-index : 1;
+    /* border : 2px solid red; */
+
+}
+
+footer div.Tel{
+
+    position : absolute;
+    left : 60%; top : 82px; width : 40%; height : 18px;
+    z-index : 1;
+    /* border : 2px solid red; */
+}
+
+footer a{
+
+    text-align : left;
+    font-size : 12px;
+    color :rgb(182, 153, 104);
+    font-family : "Roboto-Condensed-Italic";
+    cursor : pointer;
+    text-decoration : none;
+
+}
+
+footer img.Mail{
+
+    position : absolute;
+    left : 52%; top : 120px; width : 7%; height : 28px;
+    z-index : 1;
+
+}
+
+footer div.Mail{
+
+    position : absolute;
+    left : 60%; top : 130px; width : 40%; height : 18px;
+    z-index : 1;
+    /* border : 2px solid red; */
 }

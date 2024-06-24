@@ -4,6 +4,36 @@ let MenuVisible = false;
 
 /*
 
+               Scrolling window to contact
+
+
+*/
+
+
+function ScrollWindow(SY)
+{
+    let prevSY;
+
+    if(window.scrollY < SY)
+    {
+        prevSY=window.scrollY;
+
+        if(SY - window.scrollY > 200)
+            window.scrollBy(0,200);
+        else 
+            window.scrollBy(0,SY-window.scrollY);
+
+          //if(window.scrollY < SY && window.scrollY != prevSY)
+            if(window.scrollY != prevSY)
+                TimeWindowScroll = setTimeout(ScrollWindow, 50, Y);
+
+    }
+   
+}
+
+
+/*
+
                Top Menu  Events
 
 
@@ -36,6 +66,20 @@ function MenuItemMouseClick(ItemText)
     let El;
     let h;
     let i;
+
+    if(ItemText == 'Kontakt')
+        {
+    
+            El=document.getElementById("footer");
+    
+            h = parseInt($('#footer').css('height').slice(0,-2),10); 
+    
+    
+            Y = El.offsetTop + h;
+    
+            ScrollWindow(Y);
+    
+        }
 
     if(ItemText=='Cennik')
     {
@@ -90,6 +134,8 @@ function ShowHideMenu()
 
         $('span.MainMenuButt1').css("transform",  "rotate(-45deg) ");
 
+        $('#Tel').css('z-index', '1');
+
 
         MenuVisible = true;
 
@@ -106,6 +152,8 @@ function ShowHideMenu()
 
 
         $('span.MainMenuButt1').css("transform",  "rotate(0deg)");
+
+        $('#Tel').css('z-index', '2');
 
         MenuVisible = false;
 
