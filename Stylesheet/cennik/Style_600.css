@@ -1,0 +1,448 @@
+
+#Header{
+
+    position : relative;
+    /* border-bottom : 4px solid rgb(92, 89, 89); */
+    left : 0px; top :0px; width : 100%; height : 100px;
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 15px; */
+    z-index : 1;
+    opacity : 1;
+}
+
+
+#Header img{
+
+    position : absolute;
+    left : 2%; top : 14px; width : 13%; height : 74px;
+    z-index : 1;
+    /* border : 2px solid red; */
+
+}
+
+
+#CompanyName{
+    position : absolute;
+    /* border : 2px solid yellow; */
+    left : 16%; top : 27px; width : 70%; height : 60px; 
+    text-align : left;
+    font-size : 22px;
+    color :rgb(182, 153, 104);
+    font-family : "Poppins-BoldItalic";
+}
+
+#Tel{
+    position : absolute;
+    /* border : 2px solid yellow; */
+    left : 60%; top : 70px; width : 40%; height : 30px;
+    /* border : 1px solid red; */
+    color :rgb(182, 153, 104);
+    cursor : pointer;
+    z-index : 2;
+}
+
+#Tel a{
+
+    position : absolute;
+    /* border : 2px solid yellow; */
+    left : 0px; top : 0px;
+    font-size : 20px;
+    color :rgb(182, 153, 104);
+    cursor : pointer;
+}
+
+
+/*
+
+    ************************ Głowne menu wysuwane Przycisk****************************
+
+
+*/
+
+
+
+
+div.MainMenuButton{
+
+    position : absolute;                                            
+    border : 0px solid rgb(227, 220, 220);
+    left : 93%; top: 20px; width : 5%; height : 30px;
+    cursor : pointer;
+}
+
+span.MainMenuButt1{
+
+    position : absolute;
+    background-color : rgb(106, 78, 78);
+    left : 0%; top: 0px; width : 100%; height : 24%;
+    transition-property : background-color;
+    transition-duration : 1000ms;
+
+}
+
+span.MainMenuButt2{
+
+    position : absolute;
+    background-color : rgb(106, 78, 78);
+    left : 0%; top: 38%; width : 100%; height : 24%;
+    transition-property : background-color;
+    transition-duration : 1000ms;
+
+}
+
+span.MainMenuButt3{
+
+    position : absolute;
+    background-color : rgb(106, 78, 78);
+    left : 0%; top: 76%; width : 100%; height : 24%;
+    transition-property : background-color;
+    transition-duration : 1000ms;
+
+}
+
+
+/*
+
+    ************************ Głowne menu wysuwane Tabela****************************
+
+
+*/
+
+div.MainMenu{
+
+    position : absolute;
+    border : 0px solid red;
+    left : 65%; top : 60px; width : 33%; height : 180px; 
+    overflow : hidden;
+    z-index : 1;
+}
+
+
+table.MainMenuTable{
+
+    position : absolute;
+    left : 110%; top : -110%; width : 100%; height : 100%; 
+    transition : left 500ms, top 500ms;   
+    cursor : pointer; 
+    z-index : 0;
+
+}
+
+table.MainMenuTable td{
+
+    border  : 0px;
+    color : rgb(243, 235, 235);
+    font-family : "Tahoma";
+    font-size : 14px;
+    text-align : center;
+    background-color : rgb(95, 212, 185);
+    border-radius : 5px;
+
+}
+
+
+
+/*
+
+    ************************ Text 1***************************
+
+
+*/
+
+
+#Text_1{
+    position : relative;
+    left : 0px; top: 0px; width : 100%; height : 180px;
+    background-color : rgb(18, 18, 18);
+    /* border : 2px solid red; */
+}
+
+
+#Text_1 img{
+    position : absolute;
+    left : 0px; top: 0px; width:100%; height : 180px;
+    opacity : 0;
+}
+
+#Text_1 span{
+    position : absolute;
+    left : 0px; top: 60px; width:100%; height : 40px;
+    font-family : "Roboto-Bold";
+    font-size : 40px;
+    text-align : center;
+    color:white;
+    opacity : 0;
+}
+
+
+/*
+
+    ************************ Text 2***************************
+
+
+*/
+
+
+#Text_2{
+    position : relative;
+    left : 0px; top: 30px; width : 100%; height : 290px;
+    /* border : 2px solid red; */
+}
+ 
+#Text_2 span{
+    position : absolute;
+    left : 2%; top: 10px; width : 96%; height : 260px;
+    font-family : "Roboto-Condensed";
+    font-size : 16px;
+    text-align : left;
+    color:rgb(48, 45, 45);
+}
+
+
+/*
+
+    ************************ Cennik 1 - Domy i mieszkania standardowe***************************
+
+
+*/
+
+#Cennik_1{
+    position : relative;
+    left : 0px; top: 20px; width : 100%; height : 470px;
+    /* border : 2px solid yellow; */
+}
+
+
+#Cenik_1_Header{
+    position : absolute;
+    left : 0px; top: 10px; width : 100%; height : 70px;
+    /* border : 2px solid red; */
+}
+ 
+#Cenik_1_Header span{
+    position : absolute;
+    left : 5%; top: 10px; width:90%; height : 260px;
+    font-family : "Poppins-Bold";
+    font-size : 22px;
+    text-align : left;
+    color:rgb(26, 37, 124);
+}
+
+
+#Cennik_Button{
+    position : absolute;
+    /* border : 1px solid red; */
+    left : 0px; top: 10px; width:100%;
+    font-family : "Poppins-Bold";
+    font-size : 14px;
+    text-align : center;
+    color: rgb(26, 37, 124);
+    transition : color 500ms linear;
+}
+
+
+/*
+
+    ************************ Cennik 1 - Domy i mieszkania małe***************************
+
+
+*/
+
+
+#Cennik_Button_1{
+    position : absolute;
+    left : 2%; top: 90px; width : 28%; height : 70px;
+    /* border-bottom : 4px solid rgb(23, 222, 156); */
+    border-bottom-left-radius : 10px;
+    border-top-left-radius : 10px;
+    background-color : rgb(23, 222, 156);
+    /* border-radius : 5px; */
+    cursor : pointer;
+    transition : background-color 500ms linear;
+}
+
+
+
+/*
+
+    ************************ Cennik 1 - Domy i mieszkania średnie***************************
+
+
+*/
+
+
+#Cennik_Button_2{
+    position : absolute;
+    left : 2%; top: 170px; width : 28%; height : 70px;
+    border-bottom-left-radius : 10px;
+    border-top-left-radius : 10px;
+    /* border-bottom : 4px solid rgb(23, 222, 156); */
+    cursor : pointer;
+    transition : background-color 500ms linear;
+}
+ 
+
+/*
+
+    ************************ Cennik 1 - Domy i mieszkania duże***************************
+
+
+*/
+
+
+#Cennik_Button_3{
+    position : absolute;
+    left : 2%; top: 250px; width : 28%; height : 70px;
+    /* border-bottom : 4px solid rgb(23, 222, 156); */
+    border-bottom-left-radius : 10px;
+    border-top-left-radius : 10px;
+    cursor : pointer;
+    transition : background-color 500ms linear;
+}
+ 
+
+
+
+/*
+
+    ************************ Cennik 1 Domy i mieszkania - opis***************************
+
+
+*/
+
+
+#Ceny_1{
+    position : relative;
+    left : 30%; top: 90px; width : 66%; height : 320px;
+    /* border : 4px solid rgb(23, 222, 156); */
+    background-color : rgb(23, 222, 156);
+    border-bottom-right-radius : 10px;
+    border-top-right-radius : 10px;
+}
+
+#Ceny_1 div.notLast{
+    position : relative;
+    /* border : 1px solid red; */
+    left : 5%; top: 10px; width:90%; height : 65px;
+    border-bottom : 2px solid rgb(185, 200, 195);
+}
+
+div.last{
+    position : relative;
+    /* border : 1px solid red; */
+    left : 5%; top: 10px; width:90%; height : 65px;
+    /* border-bottom : 2px solid rgb(185, 200, 195); */
+}
+ 
+#Ceny_1 span{
+    position : absolute;
+    /* border : 1px solid red; */
+    padding-top : 10px;
+    left : 0%; top: 0px; width:100%;
+    font-family : "Roboto-BoldItalic";
+    font-size : 18px;
+    text-align : center;
+    color:rgb(232, 233, 240);
+}
+
+/*
+
+    ************************ Footer***************************
+
+
+*/
+
+
+#footer{
+    position : relative;
+    left : 0px; top: 30px; width : 100%; height : 200px;
+    background-color: rgb(237, 238, 242);
+    border-top : 4px solid rgb(92, 89, 89);
+    /* border : 3px solid yellow; */
+    z-index : 0;
+}
+
+footer img.Header_Logo{
+
+    position : absolute;
+    left : 2%; top : 24px; width : 10%; height : 54px;
+    z-index : 1;
+    /* border : 2px solid red; */
+
+}
+
+
+footer #CompanyName{
+    position : absolute;
+    /* border : 2px solid yellow; */
+    left : 12%; top : 37px; width : 40%; height : 60px; 
+    text-align : left;
+    font-size : 16px;
+    color :rgb(182, 153, 104);
+    font-family : "Poppins-BoldItalic";
+}
+
+footer img.Address{
+
+    position : absolute;
+    left : 52%; top : 24px; width : 7%; height : 38px;
+    z-index : 1;
+    /* border : 2px solid red; */
+
+}
+
+footer span.Address{
+
+    position : absolute;
+    left : 60%; top : 24px; width : 40%; height : 38px;
+    z-index : 1;
+    text-align : left;
+    font-size : 14px;
+    color :rgb(182, 153, 104);
+    font-family : "Roboto-Condensed-Italic";
+
+}
+
+footer img.Tel{
+
+    position : absolute;
+    left : 52%; top : 72px; width : 7%; height : 38px;
+    z-index : 1;
+    /* border : 2px solid red; */
+
+}
+
+footer div.Tel{
+
+    position : absolute;
+    left : 60%; top : 82px; width : 40%; height : 28px;
+    z-index : 1;
+    /* border : 2px solid red; */
+}
+
+footer a{
+
+    text-align : left;
+    font-size : 14px;
+    color :rgb(182, 153, 104);
+    font-family : "Roboto-Condensed-Italic";
+    cursor : pointer;
+    text-decoration : none;
+
+}
+
+footer img.Mail{
+
+    position : absolute;
+    left : 52%; top : 120px; width : 7%; height : 38px;
+    z-index : 1;
+
+}
+
+footer div.Mail{
+
+    position : absolute;
+    left : 60%; top : 130px; width : 40%; height : 28px;
+    z-index : 1;
+    /* border : 2px solid red; */
+}

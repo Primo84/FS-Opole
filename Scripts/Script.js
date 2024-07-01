@@ -68,28 +68,21 @@ function MenuItemMouseClick(ItemText)
     let i;
 
     if(ItemText == 'Kontakt')
-        {
-    
-            El=document.getElementById("footer");
-    
-            h = parseInt($('#footer').css('height').slice(0,-2),10); 
-    
-    
-            Y = El.offsetTop + h;
-    
-            ScrollWindow(Y);
-    
-        }
-
-    if(ItemText=='Cennik')
     {
-        window.location.href = "Diner.html";
+
+        El=document.getElementById("footer");
+
+        h = parseInt($('#footer').css('height').slice(0,-2),10); 
+
+
+        Y = El.offsetTop + h;
+
+        ScrollWindow(Y);
+
     }
-
-    if(ItemText == 'Kontakt')
+    else if(ItemText=='Cennik')
     {
-
-
+        window.location.href = "cennik.html";
     }
     else if(ItemText=='Galery')
     {
@@ -159,9 +152,4 @@ function ShowHideMenu()
 
     }
 
-}
-function onload()
-{
-    const el = $('#motto');
-    $('#motto').fadeIn(4000);
 }

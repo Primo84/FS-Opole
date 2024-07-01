@@ -1,0 +1,357 @@
+<!DOCTYPE HTML PUBLIC>
+<HTML>
+
+    <HEADER>
+        <META http-equiv = "content-type" content = "text/html; charset = ISO-8859-2">
+        <META name = "viewport" content = "width = device-width, height = device-height, initial-scale = 1.0">
+
+            
+
+        <TITLE>
+            Fresh-Shine
+        </TITLE>
+
+        <link rel = "stylesheet" href = "./Fonts.css" type = "text/css">
+        <link rel = "stylesheet" href = "./Stylesheet/cennik/Style.css" type="text/css"  media = "ALL AND (min-width : 1200px)">
+        <link rel = "stylesheet" href = "./Stylesheet/cennik/Style_1200.css" type="text/css" media = "ALL AND (max-width : 1200px)">
+        <link rel = "stylesheet" href = "./Stylesheet/cennik/Style_1000.css" type="text/css" media = "ALL AND (max-width : 1000px)">
+        <link rel = "stylesheet" href = "./Stylesheet/cennik/Style_800.css" type="text/css" media = "ALL AND (max-width : 800px)">
+        <link rel = "stylesheet" href = "./Stylesheet/cennik/Style_600.css" type="text/css" media = "ALL AND (max-width : 600px)">
+        <link rel = "stylesheet" href = "./Stylesheet/cennik/Style_400.css" type="text/css" media = "ALL AND (max-width : 400px)">
+        <link rel = "stylesheet" href = "./Stylesheet/cennik/Style_320.css" type="text/css" media = "ALL AND (max-width : 320px)">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src = "./Scripts/ceny.js" type = "text/JavaScript"></script>
+        <script src = "./Scripts/cennik.js" type = "text/JavaScript"></script>
+
+    </HEADER>
+
+    <BODY>
+
+
+        <div id = "Header">
+
+            <img src = "Grafika/Logo_1.png" id = "Header_Logo">
+
+            <span id= "CompanyName"> FRESH & SHINE</span>
+
+            <div id = "Tel">
+
+                <a href = "tel:881638553">Tel. 881 638 553</a>
+            
+            </div>
+
+
+            <!-- 
+
+            *****************************************G³ówne Menu Wysuwane *****************************************
+
+
+
+            -->
+
+
+            <div class = "MainMenuButton" onmouseenter = "MenuMouseEnt()" onmouseleave = "MenuMouseLeave()" onclick="ShowHideMenu()">
+
+                    <span class = "MainMenuButt1"></span>
+                    <span class = "MainMenuButt2"></span>
+                    <span class = "MainMenuButt3"></span>
+
+            </div>
+
+            <div class ="MainMenu">
+
+                <table class = "MainMenuTable">
+
+                    <tr>
+
+                        <td id="HomePage" onclick = "MenuItemMouseClick('HomePage')" onmouseenter = "MenuItemMouseEnt('#HomePage')" onmouseleave = "MenuItemMouseLeave('#HomePage')">HOME</td>
+                    </tr>
+
+                    <tr>
+                        <td id="Galeria" onclick = "MenuItemMouseClick('Galery')" onmouseenter = "MenuItemMouseEnt('#Galeria')" onmouseleave = "MenuItemMouseLeave('#Galeria')">GALERIA</td>
+                    </tr>
+
+                    <tr>
+                        <td id="Kontakt"  onclick = "MenuItemMouseClick('Kontakt')" onmouseenter = "MenuItemMouseEnt('#Kontakt')" onmouseleave = "MenuItemMouseLeave('#Kontakt')">KONTAKT</td>
+                    </tr>
+
+                </table>
+
+            </div>
+                        
+        </div> 
+
+        <!-- 
+
+            *****************************************Text 1 *****************************************
+
+
+
+        -->
+
+        <div id = "Text_1">
+
+            <img src = "./Grafika/room.jpg">
+
+            <span>Nasze Ceny</span>
+
+
+        </div>
+
+
+
+         <!-- 
+
+            *****************************************Text 2 *****************************************
+
+
+
+        -->
+
+        <div id = "Text_2">
+
+            <span>
+                Nasze us³ugi s± przeznaczone dla klientów indywidualnych i firm. 
+                Ceny us³ug s± uzale¿nione od wielu czynników, takich jak rozmiar pomieszczeñ do sprz±tania, 
+                stopieñ zabrudzenia, rodzaj us³ug oraz czêstotliwo¶æ sprz±tania. W zale¿no¶ci od potrzeb klienta, 
+                firma mo¿e zaproponowaæ ró¿ne pakiety us³ug, które bêd± odpowiadaæ jego oczekiwaniom.
+                <br><br>
+
+                Klient mo¿e wybraæ miêdzy jednorazowym sprz±taniem, a regularnymi wizytami sprz±taj±cymi, 
+                które bêd± realizowane na sta³± umówion± czêstotliwo¶æ. Zapewniamy profesjonaln± obs³ugê, 
+                wysoko wykwalifikowany personel oraz terminowe i rzetelne wykonanie us³ug.
+
+            </span>
+
+        </div>
+
+
+        <!--
+
+
+        
+                ******************Sprz±tanie jednorazowe********************
+        
+
+
+        
+        -->
+
+        <div id = Cennik_1>
+
+            <div id = "Cenik_1_Header">
+
+                <span>Sprz±tanie jednorazowe : </span>
+
+            </div>
+
+            <div id = "Cennik_Button_1" class = "Cennik_1_Button" onmouseenter = "SpanMouseEnter(0)"  onmouseleave = "SpanMouseLeave(0)" onclick = "SpanClick(0)">
+
+                <span id = "Cennik_Button">Ma³e<br>mieszkanie</span>
+
+            </div>
+
+            <div id = "Cennik_Button_2" class = "Cennik_1_Button" onmouseenter = "SpanMouseEnter(1)"  onmouseleave = "SpanMouseLeave(1)" onclick = "SpanClick(1)">
+
+                <span id = "Cennik_Button">¦rednie<br>mieszkanie</span>
+
+            </div>
+
+            <div id = "Cennik_Button_3" class = "Cennik_1_Button" onmouseenter = "SpanMouseEnter(2)"  onmouseleave = "SpanMouseLeave(2)" onclick = "SpanClick(2)">
+
+                <span id = "Cennik_Button">Du¿e<br>mieszkanie</span>
+
+            </div>
+
+            <div id = "Ceny_1">
+
+                <div class = "notLast">
+                    <span class = "Ceny_1_param_1">Cena sprz±tania<br>120-250 z³</span>
+                </div>
+
+                <div class = "notLast">
+                    <span class = "Ceny_1_param_1">Czas trwania<br>1-2 godziny</span>
+                </div>
+
+                <div class = "notLast">
+                    <span class = "Ceny_1_param_1">Ilo¶æ ³azienek<br>1</span>
+                </div>
+
+                <div class = "last">
+                    <span class = "Ceny_1_param_1">Przybli¿ona powierzchnia<br>do 50 m2</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!--
+
+        
+        
+                ******************Sprz±tanie cykliczne ********************
+        
+
+
+        
+        -->
+
+        <div id = Cennik_1>
+
+            <div id = "Cenik_1_Header">
+
+                <span>Sprz±tanie cykliczne : </span>
+
+            </div>
+
+            <div id = "Cennik_Button_1" class = "Cennik_2_Button" onmouseenter = "SpanMouseEnter(3)"  onmouseleave = "SpanMouseLeave(3)" onclick = "SpanClick(3)">
+
+                <span id = "Cennik_Button">Ma³e<br>mieszkanie</span>
+
+            </div>
+
+            <div id = "Cennik_Button_2" class = "Cennik_2_Button" onmouseenter = "SpanMouseEnter(4)"  onmouseleave = "SpanMouseLeave(4)" onclick = "SpanClick(4)">
+
+                <span id = "Cennik_Button">¦rednie<br>mieszkanie</span>
+
+            </div>
+
+            <div id = "Cennik_Button_3" class = "Cennik_2_Button" onmouseenter = "SpanMouseEnter(5)"  onmouseleave = "SpanMouseLeave(5)" onclick = "SpanClick(5)">
+
+                <span id = "Cennik_Button">Du¿e<br>mieszkanie</span>
+
+            </div>
+
+            <div id = "Ceny_1">
+
+                <div class = "notLast">
+                    <span class = "Ceny_2_param_1">Cena sprz±tania<br>100-180 z³</span>
+                </div>
+
+                <div class = "notLast">
+                    <span class = "Ceny_2_param_1">Czas trwania<br>1-2 godziny</span>
+                </div>
+
+                <div class = "notLast">
+                    <span class = "Ceny_2_param_1">Ilo¶æ ³azienek<br>1</span>
+                </div>
+
+                <div class = "last">
+                    <span class = "Ceny_2_param_1">Przybli¿ona powierzchnia<br>do 50 m2</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!--
+
+        
+        
+                ******************Sprz±tanie po remontacj ********************
+        
+
+
+        
+        -->
+
+        <div id = Cennik_1>
+
+            <div id = "Cenik_1_Header">
+
+                <span>Sprz±tanie po remontach : </span>
+
+            </div>
+
+            <div id = "Cennik_Button_1" class = "Cennik_3_Button" onmouseenter = "SpanMouseEnter(6)"  onmouseleave = "SpanMouseLeave(6)" onclick = "SpanClick(6)">
+
+                <span id = "Cennik_Button">Ma³e<br>mieszkanie</span>
+
+            </div>
+
+            <div id = "Cennik_Button_2" class = "Cennik_3_Button" onmouseenter = "SpanMouseEnter(7)"  onmouseleave = "SpanMouseLeave(7)" onclick = "SpanClick(7)">
+
+                <span id = "Cennik_Button">¦rednie<br>mieszkanie</span>
+
+            </div>
+
+            <div id = "Cennik_Button_3" class = "Cennik_3_Button" onmouseenter = "SpanMouseEnter(8)"  onmouseleave = "SpanMouseLeave(8)" onclick = "SpanClick(8)">
+
+                <span id = "Cennik_Button">Du¿e<br>mieszkanie</span>
+
+            </div>
+
+            <div id = "Ceny_1">
+
+                <div class = "notLast">
+                    <span class = "Ceny_3_param_1">Cena sprz±tania<br>350-700 z³</span>
+                </div>
+
+                <div class = "notLast">
+                    <span class = "Ceny_3_param_1">Czas trwania<br>Do 8 godzin</span>
+                </div>
+
+                <div class = "notLast">
+                    <span class = "Ceny_3_param_1">Ilo¶æ ³azienek<br>1</span>
+                </div>
+
+                <div class = "last">
+                    <span class = "Ceny_3_param_1">Przybli¿ona powierzchnia<br>do 50 m2</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- 
+
+            *****************************************Footer *****************************************
+
+
+
+        -->
+
+        <footer id = "footer">
+
+            <img src = "Grafika/Logo_1.png" class = "Header_Logo">
+
+            <span id= "CompanyName"> FRESH & SHINE</span>
+
+            <img src = "./Grafika/Address.png" class = "Address">
+
+            <span class = "Address">
+                Zofii Na³kowskiej 10/5<br>
+                45-558 Opole
+            </span>
+
+            <img src = "./Grafika/Tel.png" class = "Tel">
+
+            <div class="Tel">
+
+                <a href = "tel:881638553">Kom. 881 638 553</a>
+
+            </div>
+
+            <img src = "./Grafika/Mail.png" class = "Mail">
+
+            <div class="Mail">
+
+                <a href = "mailto:p.chliszcz@gmail.com">Fsopole.pl@gmail.com</a>
+
+            </div>
+
+
+        </footer>
+
+
+    </BODY>
+
+</HTML>
