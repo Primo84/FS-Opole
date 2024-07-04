@@ -188,14 +188,40 @@ table.MainMenuTable td{
 
 #Text_2{
     position : relative;
-    left : 0px; top: 30px; width : 100%; height : 290px;
-    /* border : 2px solid red; */
+    left : 0px; top: 30px; width : 100%; height : 480px;
+    text-align :  center;
     min-width : 320px;
+    /* border : 2px solid red; */
+}
+
+#Text_2 img{
+    position : static;
+    top: 10px; width:60px; height : 60px;
+}
+
+span.Car{
+    position : absolute;
+    left : 0%; top: 70px; width:100%;
+    font-family : "Poppins-BoldItalic";
+    font-size : 20px;
+    text-align : center;
+    color:rgb(56, 20, 202);
+}
+
+span.Header{
+    position : absolute;
+    left : 5; top: 180px; width:90%;
+    font-family : "Poppins-Bold";
+    font-size : 18px;
+    text-align : center;
+    color:rgb(48, 45, 45);
+    border-top : 3px solid rgb(182, 153, 104);
+    padding-top : 20px;
 }
  
-#Text_2 span{
+span.Desc{
     position : absolute;
-    left : 5%; top: 10px; width : 90%; height : 260px;
+    left : 5%; top: 234px; width:90%;
     font-family : "Roboto-Condensed";
     font-size : 14px;
     text-align : left;
@@ -203,239 +229,133 @@ table.MainMenuTable td{
 }
 
 
-
 /*
 
-    ************************ Cennik 1 - Domy i mieszkania standardowe***************************
+    ************************ Text 3***************************
 
 
 */
 
-#Cennik_1{
+
+#Text_3{
     position : relative;
-    left : 0px; top: 20px; width : 100%; height : 400px;
+    left : 0px; top: 20px; width : 100%; height : 300px;
+    text-align :  center;
     min-width : 320px;
-    /* border : 2px solid yellow; */
-}
-
-
-#Cenik_1_Header{
-    position : absolute;
-    left : 0px; top: 10px; width : 100%; height : 70px;
     /* border : 2px solid red; */
 }
- 
-#Cenik_1_Header span{
+
+span.Header_1{
     position : absolute;
-    left : 5%; top: 10px; width:90%; height : 260px;
+    left : 5%; top: 10px; width:90%;
     font-family : "Poppins-Bold";
+    font-size : 18px;
+    text-align : center;
+    color:rgb(48, 45, 45);
+    border-top : 3px solid rgb(182, 153, 104);
+    padding-top : 20px;
+}
+ 
+span.Desc_1{
+    position : absolute;
+    left : 5%; top: 70px; width:90%;
+    font-family : "Roboto-Condensed";
+    font-size : 14px;
+    text-align : left;
+    color:rgb(48, 45, 45);
+}
+
+/*
+
+    ************************ Text 4***************************
+
+
+*/
+
+
+#Text_4{
+    position : relative;
+    left : 0px; top: 20px; width : 100%; height : 280px;
+    text-align :  center;
+    min-width : 320px;
+    /* border : 2px solid red; */
+}
+
+span.Header_2{
+    position : absolute;
+    left : 5%; top: 10px; width:90%;
+    font-family : "Poppins-Bold";
+    font-size : 18px;
+    text-align : center;
+    color:rgb(48, 45, 45);
+    border-top : 3px solid rgb(182, 153, 104);
+    padding-top : 20px;
+}
+ 
+span.Desc_2{
+    position : absolute;
+    left : 5%; top: 90px; width:90%;
+    font-family : "Roboto-Condensed";
+    font-size : 14px;
+    text-align : left;
+    color:rgb(48, 45, 45);
+
+}
+
+
+/*
+
+************************ Text 5***************************
+
+
+*/
+
+
+#Text_5{
+    position : relative;
+    left : 0px; top: 50px; width : 100%; height : 480px;
+    text-align :  center;
+    background-color: rgb(204, 210, 219);
+    min-width : 320px;
+    /* border : 2px solid red; */
+}
+
+span.Header_3{
+    position : absolute;
+    left : 5%; top: 10px; width:90%;
+    font-family : "Poppins-Bold";
+    font-size : 18px;
+    text-align : center;
+    color:rgb(48, 45, 45);
+    /* border-top : 3px solid rgb(182, 153, 104); */
+    padding-top : 20px;
+}
+
+span.Desc_3{
+    position : absolute;
+    left : 5%; top: 70px; width:90%;
+    font-family : "Roboto-Condensed";
+    font-size : 14px;
+    text-align : left;
+    color:rgb(48, 45, 45);
+}
+
+span.Final_Desc{
+    position : absolute;
+    left : 5%; top: 320px; width : 90%;
+    font-family : "Roboto-BoldItalic";
     font-size : 16px;
     text-align : left;
-    color:rgb(26, 37, 124);
+    color:rgb(89, 122, 188);
 }
 
-
-#Cennik_Button{
-    position : absolute;
-    /* border : 1px solid red; */
-    left : 0px; top: 20px; width:100%;
-    font-family : "Poppins-Bold";
-    font-size : 10px;
-    text-align : center;
-    color: rgb(26, 37, 124);
-    transition : color 500ms linear;
-}
-
-
-/*
-
-    ************************ Cennik 1 - Domy i mieszkania 1 - pokojowe***************************
-
-
-*/
-
-
-#Cennik_Button_1{
-    position : absolute;
-    left : 2%; top: 60px; width : 28%; height : 70px;
-    /* border-bottom : 4px solid rgb(23, 222, 156); */
-    border-bottom-left-radius : 10px;
-    border-top-left-radius : 10px;
-    background-color : rgb(23, 222, 156);
-    /* border-radius : 5px; */
-    cursor : pointer;
-    transition : background-color 500ms linear;
-}
-
-
-
-/*
-
-    ************************ Cennik 1 - Domy i mieszkania 2 - pokojowe***************************
-
-
-*/
-
-
-#Cennik_Button_2{
-    position : absolute;
-    left : 2%; top: 130px; width : 28%; height : 70px;
-    border-bottom-left-radius : 10px;
-    border-top-left-radius : 10px;
-    /* border-bottom : 4px solid rgb(23, 222, 156); */
-    cursor : pointer;
-    transition : background-color 500ms linear;
-}
- 
-
-/*
-
-    ************************ Cennik 1 - Domy i mieszkania 3 - pokojowe***************************
-
-
-*/
-
-
-#Cennik_Button_3{
-    position : absolute;
-    left : 2%; top: 200px; width : 28%; height : 70px;
-    /* border-bottom : 4px solid rgb(23, 222, 156); */
-    border-bottom-left-radius : 10px;
-    border-top-left-radius : 10px;
-    cursor : pointer;
-    transition : background-color 500ms linear;
-}
- 
-
-
-
-/*
-
-    ************************ Cennik 1 Domy i mieszkania - opis***************************
-
-
-*/
-
-
-#Ceny_1{
-    position : relative;
-    left : 30%; top: 60px; width : 66%; height : 320px;
-    /* border : 4px solid rgb(23, 222, 156); */
-    background-color : rgb(23, 222, 156);
-    border-bottom-right-radius : 10px;
-    border-top-right-radius : 10px;
-}
-
-#Ceny_1 div.notLast{
-    position : relative;
-    /* border : 1px solid red; */
-    left : 5%; top: 10px; width:90%; height : 65px;
-    border-bottom : 2px solid rgb(185, 200, 195);
-}
-
-div.last{
-    position : relative;
-    /* border : 1px solid red; */
-    left : 5%; top: 10px; width:90%; height : 65px;
-    /* border-bottom : 2px solid rgb(185, 200, 195); */
-}
- 
-#Ceny_1 span{
-    position : absolute;
-    /* border : 1px solid red; */
-    padding-top : 10px;
-    left : 0%; top: 0px; width:100%;
-    font-family : "Roboto-BoldItalic";
-    font-size : 14px;
-    text-align : center;
-    color:rgb(232, 233, 240);
-}
-
-/*
-
-    ************************ Cennik -  2 Pranie tapicerki meblowej***************************
-
-
-*/
-
-#Cennik_2{
-    position : relative;
-    left : 0px; top: 20px; width : 100%; height : 810px;
-    min-width : 320px;
-    /* border : 2px solid yellow; */
-}
-
-
-#table_div{
-    position : absolute;
-    left : 5%; top: 90px; width : 90%; height : 480px;
-    /* border : 2px solid yellow; */
-
-}
-
-#table_price{
-    position : absolute;
-    left : 0px; top: 0px; width : 100%;
-    border-top : 4px solid rgb(23, 222, 156);
-    border-right : 4px solid rgb(23, 222, 156);
-    border-left : 4px solid rgb(23, 222, 156);
-}
-
-td.Head_1{
-    font-family : "Poppins-Bold";
-    font-size : 22px;
-    text-align : center;
-    vertical-align : middle;
-    color:rgb(11, 33, 195);
-    padding : 10px;
-    /* border : 2px solid red; */
-    width : 50%;
-    border-bottom : 4px solid rgb(23, 222, 156);
-}
-td.Head_2{
-    font-family : "Poppins-Bold";
-    font-size : 22px;
-    text-align : right;
-    vertical-align : middle;
-    color:rgb(11, 33, 195);
-    padding : 10px;
-    border-bottom : 4px solid rgb(23, 222, 156);
-    /* border : 2px solid red; */
-}
-
-td.img_td{
-
-    width : 20%;
-    vertical-align : middle;
-    text-align : center;
-
-    border-bottom : 4px solid rgb(23, 222, 156);
-  
-  }
-
-td.opis{
+ul{
     font-family : "Roboto-Condensed";
     font-size : 14px;
     text-align : left;
-    vertical-align : middle;
-    color:rgb(11, 33, 195);
-    padding : 10px;
-    /* border : 2px solid red; */
-    border-bottom : 4px solid rgb(23, 222, 156);
-    width : 50%;
+    color:rgb(96, 90, 90);
+    list-style-image : url("../../Grafika/point_16.png");
 }
-td.cena{
-    font-family : "Roboto-Condensed";
-    font-size : 14px;
-    text-align :right;
-    vertical-align : middle;
-    color:rgb(11, 33, 195);
-    padding : 10px;
-    /* border : 2px solid red; */
-    border-bottom : 4px solid rgb(23, 222, 156);
-    width : 40%;
-}
-
 
 
 /*

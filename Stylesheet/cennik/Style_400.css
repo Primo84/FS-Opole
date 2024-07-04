@@ -349,6 +349,90 @@ div.last{
 
 /*
 
+    ************************ Cennik -  2 Pranie tapicerki meblowej***************************
+
+
+*/
+
+#Cennik_2{
+    position : relative;
+    left : 0px; top: 20px; width : 100%; height : 810px;
+    /* border : 2px solid yellow; */
+}
+
+
+#table_div{
+    position : absolute;
+    left : 5%; top: 90px; width : 90%; height : 480px;
+    /* border : 2px solid yellow; */
+
+}
+
+#table_price{
+    position : absolute;
+    left : 0px; top: 0px; width : 100%;
+    border-top : 4px solid rgb(23, 222, 156);
+    border-right : 4px solid rgb(23, 222, 156);
+    border-left : 4px solid rgb(23, 222, 156);
+}
+
+td.Head_1{
+    font-family : "Poppins-Bold";
+    font-size : 22px;
+    text-align : center;
+    vertical-align : middle;
+    color:rgb(11, 33, 195);
+    padding : 10px;
+    /* border : 2px solid red; */
+    width : 50%;
+    border-bottom : 4px solid rgb(23, 222, 156);
+}
+td.Head_2{
+    font-family : "Poppins-Bold";
+    font-size : 22px;
+    text-align : right;
+    vertical-align : middle;
+    color:rgb(11, 33, 195);
+    padding : 10px;
+    border-bottom : 4px solid rgb(23, 222, 156);
+    /* border : 2px solid red; */
+}
+
+td.img_td{
+
+    width : 20%;
+    vertical-align : middle;
+    text-align : center;
+
+    border-bottom : 4px solid rgb(23, 222, 156);
+  
+  }
+
+td.opis{
+    font-family : "Roboto-Condensed";
+    font-size : 14px;
+    text-align : left;
+    vertical-align : middle;
+    color:rgb(11, 33, 195);
+    padding : 10px;
+    /* border : 2px solid red; */
+    border-bottom : 4px solid rgb(23, 222, 156);
+    width : 50%;
+}
+td.cena{
+    font-family : "Roboto-Condensed";
+    font-size : 14px;
+    text-align :right;
+    vertical-align : middle;
+    color:rgb(11, 33, 195);
+    padding : 10px;
+    /* border : 2px solid red; */
+    border-bottom : 4px solid rgb(23, 222, 156);
+    width : 40%;
+}
+
+/*
+
     ************************ Footer***************************
 
 

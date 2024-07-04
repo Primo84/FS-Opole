@@ -105,9 +105,9 @@ function MenuItemMouseClick(ItemText)
     {
         window.location.href = "index.html";
     }
-    else if(ItemText=='Oferta')
+    else if(ItemText=='Cennik')
     {
-        window.location.href = "oferta.html";
+        window.location.href = "cennik.html";
     }
 
 }

@@ -84,9 +84,9 @@ function MenuItemMouseClick(ItemText)
     {
         window.location.href = "cennik.html";
     }
-    else if(ItemText=='Galery')
+    else if(ItemText=='Oferta')
     {
-        window.location.href = "Galery.html";
+        window.location.href = "oferta.html";
     }
 
 }
